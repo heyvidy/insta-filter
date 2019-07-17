@@ -21,5 +21,5 @@ Rr, Gg, Bb = third.split()
 
 # Merge RGB vectors from different images
 im = Image.merge("RGB", (r, Gg, B))
-im.show()
+im.save("filtered.jpg", "JPG")
 
